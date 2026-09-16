@@ -1,5 +1,11 @@
 # @call-e/core
 
+## 0.3.2
+
+### Patch Changes
+
+- [`d59a447`](https://github.com/CALLE-AI/call-e-integrations/commit/d59a447e2f7ae98e9b37c9ce57f755d05bd331a1) Thanks [@ashish993](https://github.com/ashish993)! - Fix Windows shell injection in browser opener (use rundll32 instead of cmd /c start), remove home-directory paths from public JSON outputs (cache_path, pending_cache_path), omit --cache-root from suggested commands when using the default location, and restore safe URL sanitization in all login-URL output fields.
+
 ## 0.3.1
 
 ### Patch Changes

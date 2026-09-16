@@ -1,5 +1,16 @@
 # @call-e/cli
 
+## 0.5.2
+
+### Patch Changes
+
+- [#141](https://github.com/CALLE-AI/call-e-integrations/pull/141) [`165323c`](https://github.com/CALLE-AI/call-e-integrations/commit/165323c4f030d6e8958e268e593188ca27537278) Thanks [@JJasonSun](https://github.com/JJasonSun)! - Clarify readable telemetry host fields and hashing of the complete server URL in the packaged README.
+
+- [`d59a447`](https://github.com/CALLE-AI/call-e-integrations/commit/d59a447e2f7ae98e9b37c9ce57f755d05bd331a1) Thanks [@ashish993](https://github.com/ashish993)! - Fix Windows shell injection in browser opener (use rundll32 instead of cmd /c start), remove home-directory paths from public JSON outputs (cache_path, pending_cache_path), omit --cache-root from suggested commands when using the default location, and restore safe URL sanitization in all login-URL output fields.
+
+- Updated dependencies [[`d59a447`](https://github.com/CALLE-AI/call-e-integrations/commit/d59a447e2f7ae98e9b37c9ce57f755d05bd331a1)]:
+  - @call-e/core@0.3.2
+
 ## 0.5.1
 
 ### Patch Changes
